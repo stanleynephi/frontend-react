@@ -1,0 +1,55 @@
+.home{
+    width: 30rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border: 3px solid black;
+    padding: 5rem;  
+}
+
+
+.home:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.homecards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+
+    .header{
+        margin-bottom: -4rem;
+    }
+}
+
+
+.latesthomes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    margin: 4rem 0 0 0;
+}
+
+
+.latesthome{
+    position: relative;
+    width: 28rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+    padding: 1rem;
+    background-color: red;
+
+    h1{
+        border-bottom: 1px solid white;
+        padding: 0 0 1rem 0;
+        background-color: yellow;
+    }
+}

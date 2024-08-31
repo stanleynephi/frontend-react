@@ -1,0 +1,42 @@
+.footer{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: gray;
+
+
+    h1{
+        font-size: 1.2rem;
+        width: 29rem;
+    }
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    
+
+    a{
+        font-size: 1.1rem;
+        font-weight: 100;
+        color: black;
+    }
+}
+
+.contact{
+    display: flex;
+    width: 35rem;
+    gap: 2rem;
+}
+
+address{
+    width: 13rem;
+    font-style: normal;
+}
+
+.forms{
+    width: 30rem;
+}

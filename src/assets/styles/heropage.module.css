@@ -1,0 +1,37 @@
+.heropage{
+    background: url("../images/hand-presenting-model-house-home-loan-campaign.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 10rem;
+    height: 35rem;
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        width: 35rem;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+
+    p{
+        width: 20rem;
+    }
+
+    Button{
+        padding: 10px;
+        width: 8rem;
+        border: 1px solid black;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.5s ease, color 0.3s ease;
+    }
+    Button:hover{
+        background-color: rgb(1, 1, 26);
+        color: white;
+    }
+
+}
