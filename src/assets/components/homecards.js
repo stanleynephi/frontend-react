@@ -22,7 +22,7 @@ const HomeCard = (prop) => {
             "name": "House 2",
             "price": "$200,000",
             "location": "456 Elm St",
-            "image": "https://picsum.photos/200/300",
+            "image": "../images/hand-presenting-model-house-home-loan-campaign.jpg",
             "description": "This is another house.",
             "bedrooms": 4,
             "bathrooms": 3,
