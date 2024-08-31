@@ -1,6 +1,5 @@
 //create the footer comonents
 //import the links from react dom
-import { Link } from "react-router-dom";
 import Form from "../components/forms";
 import styles from "../styles/footer.module.css"
 

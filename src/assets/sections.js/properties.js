@@ -1,7 +1,6 @@
 import React from "react"
 import HomeCard from "../components/homecards"
 import Latest from "../components/latest"
-import logo from "../images/logo.svg"
 import styles from "../styles/properties.module.css"
 
 

@@ -3,6 +3,7 @@ import HomesInfo from "./newhomes";
 import styles from "../styles/homecards.module.css"
 
 
+
 //create a card for the homes
 const HomeCard = (prop) => {
     const houses = {
@@ -11,7 +12,7 @@ const HomeCard = (prop) => {
             "name": "House 1",
             "price": "$100,000",
             "location": "123 Main St",
-            "image": "https://picsum.photos/200/300",
+            "image": "https://stanleynephi.github.io/frontend-react/src/assets/images/home1.jpeg",
             "description": "This is a house.",
             "bedrooms": 3,
             "bathrooms": 2,

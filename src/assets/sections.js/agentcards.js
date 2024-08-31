@@ -9,7 +9,7 @@ const Agentcards = (props) => {
 
         <> 
             <div className={styles.agentcard}>
-            <img src={props.agentsimage}/>
+            <img src={props.agentsimage} alt={props.imagename}/>
             <h4>{props.agentname}</h4>
             <p>{props.position}</p>
             <div className={styles.agentcontact}>
